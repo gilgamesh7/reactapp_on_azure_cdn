@@ -1,6 +1,16 @@
 # reactapp_on_azure_cdn
 Trial todeploy a React App on Azure Container using CI/CD. Use CDN for delivery.
 
+# Links
+- [How to Deploy Your React App in Azure Storage and Static Web Apps](https://johanrin.com/posts/deploy-react-app-in-azure-storage-and-static-web-apps/)
+    - The main.yaml template needs the azurecli version upgraded to work, see repo
+- [Creating a service principal for use with Microsoft Purview](https://learn.microsoft.com/en-us/purview/create-service-principal-azure)
+- [Assign Azure roles using the Azure portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal?tabs=delegate-condition)
+
+# Application Links
+- [Without front door](https://reactappstoragecdn.z13.web.core.windows.net)
+- [With Front Door](https://reactapponcdn-ghfpanfbchd7f6bv.z01.azurefd.net)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
